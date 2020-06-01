@@ -10,6 +10,10 @@ body {
   color: #868e96;
 }
 
+.fa-li{
+  position: relative;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -75,9 +79,9 @@ p.lead {
   background-color: #BD5D38;
 }
 
-.dev-icons {
+/*.dev-icons {
   font-size: 3rem;
-}
+}*/
 
 .dev-icons .list-inline-item i:hover {
   color: #BD5D38;
@@ -160,7 +164,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+  background-color: #000000 !important;
 }
 
 .text-primary {
